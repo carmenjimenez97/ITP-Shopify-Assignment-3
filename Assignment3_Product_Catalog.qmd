@@ -1,0 +1,463 @@
+
+---
+title: "ITP-Shopify Store - Assignment 3: Product Catalog Development"
+author: "Carmen Lia Jimenez Rodriguez"
+date: today
+
+format:
+  html:
+    toc: true
+    toc-depth: 4
+    number-sections: true
+    code-link: true
+    embed-resources: true
+    theme: cosmo
+    code-fold: true
+
+editor: visual
+
+execute:
+  freeze: auto
+---
+
+# Introduction
+
+This report presents the product catalog developed for my Shopify practice store. Instead of a traditional retail business, I created an online catalog for **Cabañas Campeche**, a cabin rental business located in Samaipata, Bolivia.
+
+Each cabin is presented as a product in Shopify and includes a title, description, nightly price, image, inventory information, and category. The catalog is designed to help customers compare accommodations and choose the cabin that best meets their travel needs.
+
+
+# Product Catalog Overview
+
+The table below summarizes the twelve cabin rentals available in the Shopify store. Each cabin offers different accommodations, amenities, and pricing to meet the needs of couples, families, and larger groups visiting Samaipata, Bolivia.
+
+
+| Cabin | Maximum Guests | Price per Night | Product Type | Inventory |
+|:------|:--------------:|----------------:|:-------------|:---------:|
+| Cabin 1 | 4 | $200 | Cabin Rental | 1 |
+| Cabin 2 | 2 | $120 | Cabin Rental | 1 |
+| Cabin 6 | 6 | $300 | Cabin Rental | 1 |
+| Cabin 7 | 6 | $300 | Cabin Rental | 1 |
+| Cabin 8 | 4 | $150 | Cabin Rental | 1 |
+| Family Cabin 10 | 8 | $500 | Cabin Rental | 1 |
+| Lirio Cabin | 4 | $350 | Cabin Rental | 1 |
+| Rosa Cabin | 4 | $350 | Cabin Rental | 1 |
+| Jazmin Cabin | 4 | $350 | Cabin Rental | 1 |
+| Reseda Cabin | 6 | $500 | Cabin Rental | 1 |
+| Dalia Cabin | 6 | $500 | Cabin Rental | 1 |
+| Orquidea Cabin | 6 | $500 | Cabin Rental | 1 |
+
+
+::: {.callout-note}
+## About Cabañas Campeche
+
+Cabañas Campeche is located in Samaipata, Bolivia, and offers comfortable cabins for couples, families, and groups. Each cabin includes amenities designed to provide guests with a relaxing stay surrounded by nature.
+:::
+
+
+# Product Information {.panel-tabset}
+
+
+## Cabin 1
+
+
+
+**Capacity:** Up to 4 guests
+
+
+
+### Description
+
+
+
+Cabin 1 is a cozy retreat for families or small groups. It features two bedrooms with full-size beds, each with a private bathroom and hot water. Guests can enjoy a fully equipped kitchen with a mini refrigerator, blender, cookware, dishes, and utensils. The cabin also includes a barbecue area, cable TV, Wi-Fi, and private parking for a comfortable stay.
+
+
+
+- **Price:** $200 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Cabin Rental
+
+- **Tags:** Family, Wi-Fi, Kitchen, Parking, Barbecue
+
+
+
+![Cabin 1 Shopify Product](images/cabin1.png)
+
+
+## Cabin 2
+
+
+
+**Capacity:** Up to 2 guests
+
+
+
+### Description
+
+
+
+Cabin 2 is perfect for couples or solo travelers seeking a peaceful getaway. It offers one full-size bed, a private bathroom with hot water, and a fully equipped kitchen with a mini refrigerator, blender, cookware, dishes, and utensils. Guests also have access to a covered barbecue area, cable TV, Wi-Fi, and private parking.
+
+
+
+- **Price:** $120 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Cabin Rental
+
+- **Tags:** Couple, Wi-Fi, Kitchen, Parking, Barbecue
+
+
+
+![Cabin 2 Shopify Product](images/cabin2.png)
+
+
+
+
+
+
+
+## Cabin 6
+
+
+
+**Capacity:** Up to 6 guests
+
+
+
+### Description
+
+
+
+Cabin 6 is designed for larger families or groups. It offers two bedrooms, each with one full-size bed and one twin bed, a living and dining area, a private bathroom with hot water, and a fully equipped kitchen. Guests can relax on the covered terrace with a barbecue area while enjoying cable TV, Wi-Fi, and private parking.
+
+
+
+- **Price:** $300 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Cabin Rental
+
+- **Tags:** Family, Group, Terrace, Wi-Fi
+
+
+
+![Cabin 6 Shopify Product](images/cabin6.png)
+
+
+
+## Cabin 7
+
+
+
+**Capacity:** Up to 6 guests
+
+
+
+### Description
+
+
+
+Cabin 7 offers spacious accommodations for families or groups. It includes two bedrooms, a living and dining area, a fully equipped kitchen, a private bathroom with hot water, a covered terrace with barbecue facilities, satellite TV, Wi-Fi, and private parking.
+
+
+
+- **Price:** $300 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Cabin Rental
+
+- **Tags:** Family, Group, Terrace, Satellite TV
+
+
+
+![Cabin 7 Shopify Product](images/cabin7.png)
+
+
+
+## Cabin 8
+
+
+
+**Capacity:** Up to 4 guests
+
+
+
+### Description
+
+
+
+Cabin 8 is a studio-style cabin with two full-size beds, making it ideal for small families or friends. It includes a living and dining area, a kitchenette with a mini refrigerator and cooking utensils, a private bathroom with hot water, a barbecue grill, satellite TV, Wi-Fi, and private parking.
+
+
+
+- **Price:** $150 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Cabin Rental
+
+- **Tags:** Studio, Grill, Wi-Fi, Kitchen
+
+
+
+![Cabin 8 Shopify Product](images/cabin8.png)
+
+
+
+## Family Cabin 10
+
+
+
+**Capacity:** Up to 8 guests
+
+
+
+### Description
+
+
+
+Family Cabin 10 is the largest accommodation available at Cabañas Campeche. It features three bedrooms, two full bathrooms with hot water, a spacious living and dining area, and a fully equipped kitchen. Guests can enjoy a covered barbecue area, cable TV, Wi-Fi, and private parking, making it ideal for large families or groups.
+
+
+
+- **Price:** $500 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Cabin Rental
+
+- **Tags:** Large Family, Wi-Fi, Kitchen, Barbecue
+
+
+
+![Family Cabin 10 Shopify Product](images/cabin10.png)
+
+
+
+## Lirio Cabin
+
+
+
+**Capacity:** Up to 4 guests
+
+
+
+### Description
+
+
+
+Lirio Cabin offers a warm and comfortable atmosphere with two bedrooms, two full bathrooms, a fireplace, a living and dining area, and a fully equipped kitchen. Guests also have access to a barbecue area, cable TV, and a private garage.
+
+
+
+- **Price:** $350 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Premium Cabin
+
+- **Tags:** Fireplace, Family, Garage
+
+
+
+![Lirio Cabin Shopify Product](images/lirio.png)
+
+
+
+## Rosa Cabin
+
+
+
+**Capacity:** Up to 4 guests
+
+
+
+### Description
+
+
+
+Rosa Cabin provides a relaxing stay with two comfortable bedrooms, two bathrooms, a cozy fireplace, a fully equipped kitchen, barbecue area, cable TV, and a private garage. It is ideal for families looking for comfort and convenience.
+
+
+
+- **Price:** $350 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Premium Cabin
+
+- **Tags:** Fireplace, Family, Garage
+
+
+
+![Rosa Cabin Shopify Product](images/rosa.png)
+
+
+
+## Jazmin Cabin
+
+
+
+**Capacity:** Up to 4 guests
+
+
+
+### Description
+
+
+
+Jazmin Cabin is a spacious and comfortable option featuring two bedrooms, two bathrooms, a fireplace, a fully equipped kitchen, barbecue area, cable TV, and private garage. It provides everything needed for a relaxing family vacation.
+
+
+
+- **Price:** $350 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Premium Cabin
+
+- **Tags:** Fireplace, Family, Garage
+
+
+
+![Jazmin Cabin Shopify Product](images/jazmin.png)
+
+
+
+## Reseda Cabin
+
+
+
+**Capacity:** Up to 6 guests
+
+
+
+### Description
+
+
+
+Reseda Cabin is a premium three-bedroom cabin featuring two full bathrooms, a fireplace, a spacious living and dining area, a fully equipped kitchen, barbecue facilities, cable TV, and a private garage. It is perfect for larger families seeking extra comfort.
+
+
+
+- **Price:** $500 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Premium Family Cabin
+
+- **Tags:** Spacious, Fireplace, Family
+
+
+
+![Reseda Cabin Shopify Product](images/reseda.png)
+
+
+
+## Dalia Cabin
+
+
+
+**Capacity:** Up to 6 guests
+
+
+
+### Description
+
+
+
+Dalia Cabin is designed for families looking for extra space and comfort. It includes three bedrooms, two bathrooms, a fireplace, a fully equipped kitchen, barbecue area, cable TV, and private garage in a peaceful natural setting.
+
+
+
+- **Price:** $500 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Premium Family Cabin
+
+- **Tags:** Spacious, Family, Fireplace
+
+
+
+![Dalia Cabin Shopify Product](images/dalia.png)
+
+
+
+## Orquidea Cabin
+
+
+
+**Capacity:** Up to 6 guests
+
+
+
+### Description
+
+
+
+Orquidea Cabin is a spacious premium cabin with three bedrooms, two bathrooms, a fireplace, a living and dining area, a fully equipped kitchen, barbecue facilities, cable TV, and private garage. It is an excellent choice for families and groups seeking a relaxing stay.
+
+
+
+- **Price:** $500 per night
+
+- **Inventory:** 1 cabin available
+
+- **Vendor:** Cabañas Campeche
+
+- **Category:** Premium Family Cabin
+
+- **Tags:** Spacious, Family, Fireplace
+
+
+
+![Orquidea Cabin Shopify Product](images/orquidea.png)
+
+
+# Assortment Strategy Reflection
+
+The product assortment for Cabañas Campeche was carefully designed to meet the needs of different types of travelers visiting Samaipata, Bolivia. The catalog includes cabins for couples, small families, and larger groups, offering a variety of capacities, layouts, and price ranges. Although each cabin is unique, they all share the same commitment to comfort, convenience, and a relaxing natural environment. This assortment allows guests to easily compare accommodations based on their group size, budget, and preferred amenities, making it easier to choose the option that best fits their travel plans. Offering a diverse yet consistent selection of cabins helps strengthen the business concept and provides a better customer experience.
+
+
+# CPP Farm Store Application Reflection
+
+Although this project focuses on a cabin rental business, the same principles of product catalog management apply to the CPP Farm Store. Customers benefit from clear product titles, detailed descriptions, accurate pricing, high-quality images, and organized categories. Presenting products in a consistent and attractive way helps customers compare options, make informed decisions, and build confidence in the business. A well-organized online catalog improves the overall shopping experience regardless of whether the business offers products or services.
+
+
+# Appendix
+
+## GitHub Page
+
+
+## GitHub Repository
+
