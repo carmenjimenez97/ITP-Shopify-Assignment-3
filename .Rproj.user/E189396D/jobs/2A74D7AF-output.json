@@ -1,0 +1,4 @@
+[1,"==> quarto preview Assignment3_Product_Catalog.qmd --to html --no-watch-inputs --no-browse\n\n"]
+[1,"pandoc \n  to: html\n  output-file: Assignment3_Product_Catalog.html\n  standalone: true\n  embed-resources: true\n  section-divs: true\n  html-math-method: mathjax\n  wrap: none\n  default-image-extension: png\n  toc: true\n  toc-depth: 4\n  number-sections: true\n  variables: {}\n  \nmetadata\n  document-css: false\n  link-citations: true\n  date-format: long\n  lang: en\n  engines:\n    - path: C:\\Users\\carme\\AppData\\Local\\Programs\\Quarto\\share\\extension-subtrees\\julia-engine\\_extensions\\julia-engine\\julia-engine.js\n  title: 'ITP-Shopify Store - Assignment 3: Product Catalog Development'\n  author: Carmen Lia Jimenez Rodriguez\n  date: today\n  editor: visual\n  theme: cosmo\n  \n"]
+[1,"Output created: Assignment3_Product_Catalog.html\n\nWatching files for changes\n"]
+[1,"Browse at http://localhost:4717/\nListening on http://127.0.0.1:4717/\n"]
